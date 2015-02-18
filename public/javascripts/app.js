@@ -4,9 +4,9 @@ App.SubView = Ember.View.extend({
   templateName: "sub/sub"
 });
 
-App.PhotosView = Ember.View.extend({
+/* App.PhotosView = Ember.View.extend({
 	template: Ember.TEMPLATES.photos
-});
+}); */
 
 App.Router.map(function() {
 	this.resource('photos', { path: '/photos' })
